@@ -1,25 +1,32 @@
 body {
 margin: 100px 0 0 0;
-font-family: helvetica, sans-serif;
+font-family: "gill sans";
 }
 
 h1, h2 {
-font-family: monospace;
+font-family: "DIN condensed";
 }
 
 h1.title {
 text-align: center;
-background-color: red;
+background-color: #231f20;
 color: white;
-padding: 25px 0;
+font-size: 40px;
+padding-top: 12px;
+padding-bottom: 0px;
 margin-top: 0;
+margin-bottom: 0;
 position: fixed;
 top: 0;
 width: 100%;
 }
 
 h2 {
-color:green;
+text-align: left;
+color: black;
+margin: auto;
+margin-top: 8px;
+padding: 0;
 }
 
 img {
@@ -27,53 +34,58 @@ img {
 }
 
 p {
-  margin-top: 0;
-  margin-bottom: 18px;
-  border: 1px solid red;
-  padding: 20px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  padding: 0px;
 }
 
 .first {
-  background-color: rgb(186, 108, 26);
-  border: 2px solid rgb(125, 104, 86);
-  color: white;
-  font-size: 1.2em;
+  color: black;
+  font-size: 1.1em;
+  line-height: 1.1;
+}
+
+.second {
+  color: black;
+  font-size: 1.1em;
   line-height: 1.1;
 }
 
 ul{
+  font-size: 1.0em;
+  font-weight: 600;
+  line-height: 1.1;
+  margin-top: 10px;
+  margin-left: 20px;
+  margin-bottom: 10px;
+  padding: 0px;
 }
 
 .everything {
-border: 2px solid purple;
 width: 60%;
 margin: 0 auto;
 max-width: 600px;
 }
 
 .cover {
-border: 1px solid black;
 float: left;
 width: 48%
 }
 
 .intro {
-width: 48%
+width: 48%;
 float: right;
-border: 1px solid black;
 }
 
 @media screen and (max-width: 800px) {
 
 .cover {
-float:none;
-width: auto;
+  float: none;
+  width: auto;
 }
 
 .intro {
   float: none;
   width: auto;
 }
-
-
 }
