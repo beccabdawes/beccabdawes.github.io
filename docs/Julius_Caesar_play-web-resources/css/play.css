@@ -1,3 +1,10 @@
+html {
+  -ms-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+  background: #fff;
+  font-size: 16px;
+  /* scroll-behavior: smooth; */
+}
 
 * {
   margin: 0;
@@ -8,8 +15,8 @@
 body {
   font-family: "gill sans", "tahoma", "sans-serif";
   background-color: #231f20;
-  padding-top: 380px;
-  font-size: .7rem;
+  padding-top: 185px;
+  font-size: 0.9rem;
 }
 
 .takemeup {
@@ -55,11 +62,11 @@ h1, h2 {
 
 h1 a, h2 a {
   position: absolute;
-  top:-350px;
+  top: -190px;
 }
 
 img {
-  width:100%;
+  width: 100%;
   display: block;
 }
 
@@ -101,7 +108,7 @@ section.play {
   padding-top: 3rem;
   padding-bottom: 2rem;
   border-top: 1px dotted #231f20;
-  margin:2rem 0;
+  margin: 2rem 0;
   /* padding:0.4rem; */
 }
 
@@ -120,9 +127,9 @@ h2.scene {
 }
 
 p.character {
-  font-size: 1rem;
-  font-weight: 600;
-  margin: 30px 0 0 30px;
+  font-size: 1.2rem;
+  font-weight:  600;
+  margin: 12px 0 0 0px;
 }
 
 p.charactername {
@@ -153,7 +160,7 @@ p.play_location {
 }
 
 p.prose {
-  margin: 0 0 0 80px;
+  margin: 0 0 0 50px;
   /* margin-bottom: 5px; */
   /* text-indent: -20px; */
 }
@@ -167,9 +174,9 @@ h2.stage_directions {
 }
 
 p.verseline {
-  margin: 0 0 0 80px;
-  /* margin-bottom: 5px; */
-  /* text-indent: -20px; */
+  margin: 0 0 0 50px;
+  margin-bottom: 6px;
+  text-indent: -20px;
 }
 
 p.character_listing {
@@ -222,34 +229,35 @@ nav {
   top: 0;
   left:0;
   width:100%;
+  z-index: 100;
 }
 
 nav ul {
-list-style: none;
-display: flex;
-flex-direction: column;
-text-align: center;
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
 }
 
 nav ul li a {
-text-decoration: none;
-padding: .5rem 0;
-display: block;
-color: black;
+  text-decoration: none;
+  padding: .5rem 0;
+  display: block;
+  color: black;
 }
 
 nav ul li:hover {
-background-color: #b31f29;
+  background-color: #b31f29;
 }
 
 nav ul li a:hover {
-color:white;
+  color:white;
 }
 
 li ul li a {
-margin: .3rem 0;
-/* padding: .3rem 1.5rem; */
-font-size: .6rem;
+  margin: .3rem 0;
+  /* padding: .3rem 1.5rem; */
+  font-size: .6rem;
 }
 
 li ul {
@@ -257,17 +265,17 @@ li ul {
 }
 
 nav ul li:hover ul {
-display:flex;
-flex-direction: column;
+  display:flex;
+  flex-direction: column;
 }
 
 nav ul li.Home:hover {
-background:none;
+  background:none;
 }
 
 nav ul li.Home:hover a {
-color: #b31f29;
-text-decoration: underline;
+  color: #b31f29;
+  text-decoration: underline;
 }
 
 /* nav ul li.home:hover {
@@ -299,7 +307,7 @@ li.Home {
 @media screen and (min-width: 580px) {
 
 body {
-font-size: 1rem;
+  font-size: 1rem;
 }
 
 }
@@ -329,15 +337,11 @@ li.home {
   align-self: flex-start;
   }
 
-/* when the screen is wide set the direction of the flex items to be in a row */
-
 nav ul {
   flex-direction: row;
   align-items:center;
   justify-content:flex-end;
 }
-
-/* the main items have a disired width of 6rem  */
 
 nav ul li {
   flex: 0 1 6rem;
@@ -360,8 +364,6 @@ li ul {
   background-color: #b31f29;
   width: 6rem;
 }
-
-/* make the width of the sub items the same as the width of the main items */
 
 li ul li {
   width: 6rem;
@@ -386,7 +388,7 @@ body {
 }
 
 main {
-  width:65%;
+  width:70%;
   max-width: 900px;
   margin:0 auto;
   /* border:1px solid red; */
@@ -401,7 +403,7 @@ p.verseline {
 }
 
 img {
-  width:50%;
+  width:40%;
   float:right;
   margin: 0 0 2rem 1rem;
 }
