@@ -1,32 +1,28 @@
 body {
-margin: 100px 0 0 0;
-font-family: "gill sans";
+  margin: 50px 0 0 0;
+  font-family: "gill sans", "tahoma", "sans-serif";
 }
 
 h1, h2 {
-font-family: "DIN condensed";
+  font-family: "DIN condensed", "tahoma", "sans-serif";
 }
 
-h1.title {
-text-align: center;
-background-color: #231f20;
-color: white;
-font-size: 40px;
-padding-top: 12px;
-padding-bottom: 0px;
-margin-top: 0;
-margin-bottom: 0;
-position: fixed;
-top: 0;
-width: 100%;
+.title {
+  display: none;
 }
 
 h2 {
-text-align: left;
-color: black;
-margin: auto;
-margin-top: 8px;
-padding: 0;
+  font-size: 30px;
+  text-align: left;
+  color: black;
+  margin: auto;
+  margin-top: 8px;
+  padding: 0px;
+}
+
+a.gotoplay {
+  color: black;
+  text-decoration: none;
 }
 
 img {
@@ -62,19 +58,19 @@ ul{
 }
 
 .everything {
-width: 60%;
-margin: 0 auto;
-max-width: 600px;
+  width: 60%;
+  margin: 0 auto;
+  max-width: 600px;
 }
 
 .cover {
-float: left;
-width: 48%
+  float: left;
+  width: 48%
 }
 
 .intro {
-width: 48%;
-float: right;
+  width: 48%;
+  float: right;
 }
 
 @media screen and (max-width: 800px) {
