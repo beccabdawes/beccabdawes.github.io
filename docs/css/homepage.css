@@ -1,0 +1,91 @@
+html {
+  font-size: 15px;
+}
+
+body {
+  margin: 2.6rem;
+  font-family: "gill sans", "tahoma", "sans-serif";
+}
+
+h1, h2 {
+  font-family: "DIN condensed", "tahoma", "sans-serif";
+}
+
+.title {
+  display: none;
+}
+
+h2 {
+  font-size: 30px;
+  text-align: left;
+  color: black;
+  margin: auto;
+  margin-top: 8px;
+  padding: 0px;
+}
+
+.gotoplay a {
+  color: black;
+  text-decoration: none;
+}
+
+img {
+  width: 100%
+}
+
+p {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  padding: 0px;
+}
+
+.first {
+  color: black;
+  font-size: 1.1em;
+  line-height: 1.1;
+}
+
+.second {
+  color: black;
+  font-size: 1.1em;
+  line-height: 1.1;
+}
+
+ul{
+  font-size: 1.0em;
+  font-weight: 600;
+  line-height: 1.1;
+  margin-top: 10px;
+  margin-left: 20px;
+  margin-bottom: 10px;
+  padding: 0px;
+}
+
+.everything {
+  width: 60%;
+  margin: 0 auto;
+  max-width: 600px;
+}
+
+.cover {
+  float: left;
+  width: 48%
+}
+
+.intro {
+  width: 48%;
+  float: right;
+}
+
+@media screen and (max-width: 800px) {
+
+.cover {
+  float: none;
+  width: auto;
+}
+
+.intro {
+  float: none;
+  width: auto;
+}
+}
